@@ -221,7 +221,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg2.jpeg");
+	background-image: url("assets/images/head-featured-bg.jpeg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -448,7 +448,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/about-video-bg2.jpg");
+	background-image: url("assets/images/about-video-bg.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
