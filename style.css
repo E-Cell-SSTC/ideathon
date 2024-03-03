@@ -46,10 +46,10 @@ ul {
   margin: 0;
 }
 
-.ideathon-li{
-	display: flex;
-	gap: 4.8rem;
-	list-style: none;
+.ideathon-li {
+  display: flex;
+  gap: 4.8rem;
+  list-style: none;
 }
 
 ul li {
@@ -219,136 +219,135 @@ button:focus {
 /*--------------------*/
 
 #ideathon {
-	display: flex;
-	flex-direction: column;
-	/* justify-content: center; */
-	align-items: center;
-	margin: 0;
-	padding: 0;
-	background: #262626;
-	height: 100vh;
-	width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background: #262626;
+  height: 100vh;
+  width: 100vw;
 }
 
 .ideathon-ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	list-style: none;
-	margin-top: 25rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  margin-top: 25rem;
 }
 
 .ideathon-li {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 8rem;
-	letter-spacing: 15px;
-	color: #484848;
-	text-shadow: none;
-	animation: animate 1s infinite linear;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5em;
+  letter-spacing: 15px;
+  color: #484848;
+  text-shadow: none;
+  animation: animate 1s infinite linear;
 }
 
 .ideathon-subheader {
-	font-family: "Poppins";
-	font-size: 2.5rem;
-	font-weight: 500;
-	color: #484848;
-	letter-spacing: 5px;
-	cursor: pointer;
-	margin-top: 2rem;
+  font-family: "Poppins";
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #484848;
+  letter-spacing: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
 }
 
 .ideathon-subheader span {
-	transition: 0.5s;
+  transition: 0.5s;
 }
 
 .ideathon-subheader span:hover {
-	color: #fff;
-	/* text-shadow:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; */
+  color: #fff;
+  /* text-shadow:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; */
 }
 
 @keyframes animate {
-	0% {
-		color: #484848;
-		text-shadow: none;
-	}
+  0% {
+    color: #484848;
+    text-shadow: none;
+  }
 
-	18% {
-		color: #484848;
-		text-shadow: none;
-	}
+  18% {
+    color: #484848;
+    text-shadow: none;
+  }
 
-	20% {
-		color: #fff900;
-		text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
-	}
+  20% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+  }
 
-	30% {
-		color: #484848;
-		text-shadow: none;
-	}
+  30% {
+    color: #484848;
+    text-shadow: none;
+  }
 
-	35% {
-		color: #fff900;
-		text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
-	}
+  35% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+  }
 
-	70% {
-		color: #484848;
-		text-shadow: none;
-	}
+  70% {
+    color: #484848;
+    text-shadow: none;
+  }
 
-	85% {
-		color: #fff900;
-		text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
-	}
+  85% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+  }
 
-	90% {
-		color: #484848;
-		text-shadow: none;
-	}
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
 
-	100% {
-		color: #484848;
-		text-shadow: none;
-	}
+  100% {
+    color: #484848;
+    text-shadow: none;
+  }
 }
 
 .ideathon-li:nth-child(1) {
-	animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .ideathon-li:nth-child(2) {
-	animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .ideathon-li:nth-child(3) {
-	animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .ideathon-li:nth-child(4) {
-	animation-delay: 0.7s;
+  animation-delay: 0.7s;
 }
 
 .ideathon-li:nth-child(5) {
-	animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .ideathon-li:nth-child(6) {
-	animation-delay: 1.2s;
+  animation-delay: 1.2s;
 }
 
 .ideathon-li:nth-child(7) {
-	animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 .ideathon-li:nth-child(8) {
-	animation-delay: 1.6s;
+  animation-delay: 1.6s;
 }
 
 .ideathon-li:nth-child(9) {
-	animation-delay: 1.8s;
+  animation-delay: 1.8s;
 }
-
 
 .mu-logo-area {
   display: inline;
@@ -386,6 +385,29 @@ button:focus {
   border: 2px solid #fff;
 }
 
+.ideathon {
+  margin-inline: 2em;
+}
+@media (max-width: 62em) {
+  .ideathon {
+    margin-inline: 2em;
+  }
+  .ideathon-li {
+    font-size: 3em;
+  }
+
+  .ideathon-ul {
+    margin-top: 35rem;
+    margin-inline: 2em;
+  }
+
+  .ideathon-subheader {
+    font-size: 1.3rem;
+    padding-inline: 1.5rem;
+    letter-spacing: 3px;
+    margin-top: 1rem;
+  }
+}
 /*=== Featured section ===*/
 
 .mu-hero-featured-area {
@@ -1182,17 +1204,17 @@ button:focus {
 
 /* Ensure responsiveness */
 @media (max-width: 768px) {
-	.mu-sponsors-content {
-		margin-left: auto;
-		margin-right: auto;
-	}
+  .mu-sponsors-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	.mu-sponsors-single {
-		width: 100%;
-		/* Set width to full for smaller screens */
-		margin: 10px 0;
-		/* Add vertical margin */
-	}
+  .mu-sponsors-single {
+    width: 100%;
+    /* Set width to full for smaller screens */
+    margin: 10px 0;
+    /* Add vertical margin */
+  }
 }
 
 /*--------------------*/
@@ -1319,8 +1341,6 @@ button:focus {
 .mu-contact-speakers-info p {
   margin-bottom: 5px;
 }
-
-
 
 /*--------------------*/
 /* FOOTER */
